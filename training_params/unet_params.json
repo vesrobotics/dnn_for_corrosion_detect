@@ -1,0 +1,13 @@
+{
+    "path_to_raw_data" : "/home/ana/Downloads/Corrosion Condition State Classification/original/Train/images",
+    "path_to_mask_data" : "/home/ana/Downloads/Corrosion Condition State Classification/original/Train/masks/",
+    "path_to_saved_weights" : "trained_weights/unet.ckpt",
+    "target_img_shape" : [224, 224, 3],
+    "target_mask_shape" : [224, 224, 1],
+    "n_filters" : 32,
+    "n_classes" : 4,
+    "test_size" : 0.2,
+    "batch_size" : 16,
+    "epochs" : 20,
+    "model_to_use" : 0
+}
